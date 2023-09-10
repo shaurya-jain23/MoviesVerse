@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10.1vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    background-color: #FFFFFF;
+    border: 1px solid #D4DADF;
+}
+.website{
+    display: flex;
+    align-items: center;
+    margin-left: 3.64vw;
+    padding-right: 1.129vw;
+    border-right: 1px solid #D4DADF;
+}
+.logo img{
+    height: 2.81vw;
+}
+.webname{
+    margin-left: 1.129vw;
+    padding-bottom: 0.3vh;
+    padding-right: 8.6vw;
+    
+}
+.webname a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.39vw;
+}
+.search{
+    position: absolute;
+    right: 1.5vw;
+    border-left: 1px solid #D4DADF;
+    padding: 0.5vh 0px;
+    align-items: center;
+    
+}
+.search-icon{
+  display: inline-block;
+  padding: 1.15vh;
+}
+.search input{
+    border: none;
+    width: 16vw;
+    height: 5vh;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.85vh;
+    padding: 10px 20px;
+    margin-right: 10px;
+    
+}
+.sidenav{
+    min-height: 95%;
+    width: 21.08vw;
+    position: absolute;
+    position: fixed;
+    background-color: #e8eef3;
+    overflow: auto;
+    background-attachment: fixed;
+    border-right: 1px solid #D4DADF;
+}
+.sidenav a{
+    text-decoration: none;
+    padding: 2.14vh 0 2.14vh 5.7vw;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.21vw;
+    color: #1F2A33;
+    display: block;
+  }
+  
+.sidenav a:hover {
+    background-color: #555;
+  color: white;
+  }
+
+.sidenav button{
+    border: none;
+    padding: 1.71vh 4.6vw;
+    color: white;
+    background-color: black;
+    border-radius: 1.14vh;
+    font-family: 'Open Sans';
+    font-size: 1.216vw;
+    font-weight: 700;
+    position: absolute;
+    top: 78.4vh;
+    right: 2.821vw;
+}
+.sidenav button:hover {
+    background-color: rgb(19, 18, 18);
+    font-size: larger;
+    color: rgb(255, 255, 255);
+  }
+  
+body{
+    background-color: #eef2f6;
+}
+.Movie_cards{
+    display: grid;
+    margin-left: 25.08vw;
+    grid-template-columns: auto auto auto;
+}
+.box{
+    background-color: brown;
+    height: 40.71vh;
+    background-size: 40.71vh;
+    width: 36.14vh;
+    border: 0.57vh solid white;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 20px auto;
+}
+.movie_type{
+    display: inline-block;
+    background-color: rgba(29, 29, 29, 0.5);
+    padding: 4px 8px;
+    gap: 10px;
+    border-radius: 0px 8px;
+    /* width: 4vw; */
+    /* height: 1.75vw; */
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    color: aqua;
+    position: relative;
+    top: 17.8vh;
+    left: 1.5vw;
+}
+.rating img{
+    height: 1.95vh;
+    position: relative;
+    top: 23.71vh;
+    left: 1.5vw;
+}
+.movie_name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 3.7vh;
+    line-height: 32px;
+    color: white;
+    position: relative;
+    top: 28.14vh;
+    left: 1.5vw;
+    word-wrap: break-word;
+}
+
+#main {
+    margin-left: 22%;
+    border-top:1px solid #D4DADF;
+    background-color:  #FAFAFA;
+    
+} 
+
+#header {
+    width: 25%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    float: right;
+}
+
+/* #logo {
+    display: flex;
+    height: 42px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 42px;
+    padding-bottom: 10px;
+    border-right:1px solid #D4DADF;
+} */
+
+/* #logo img {
+    padding-right: 10px;
+    width: 32.42px;
+} */
+
+/* #logo span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+} */
+
+
+
+#search-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    width: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie h3 {
+   font-family : 'Roboto', sans-serif; 
+   font-size :24 px; 
+   color : white; 
+   position : absolute; 
+   bottom :0 ; 
+   left :0 ; 
+   right :0 ; 
+   background-color : rgba(0,0,0,0.5);
+}
+.movie {
+    transition: transform 0.3s;
+  }
+  
+  .movie:hover {
+    transform: scale(1.1);
+  }
